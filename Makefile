@@ -6,11 +6,11 @@
 #    By: flo-dolc <flo-dolc@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/17 22:26:18 by flo-dolc          #+#    #+#              #
-#    Updated: 2024/01/19 02:03:05 by flo-dolc         ###   ########.fr        #
+#    Updated: 2024/01/20 04:13:44 by flo-dolc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS		=
+SRCS		=	ft_itoa.c ft_printf.c hex_utils.c numbers_utils.c pointer_utils.c strings_utils.c
 
 OBJS		=	$(SRCS:.c=.o)
 
