@@ -6,11 +6,12 @@
 #    By: flo-dolc <flo-dolc@student.42roma.it>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/17 22:26:18 by flo-dolc          #+#    #+#              #
-#    Updated: 2024/01/20 04:13:44 by flo-dolc         ###   ########.fr        #
+#    Updated: 2024/02/05 02:07:37 by flo-dolc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS		=	ft_itoa.c ft_printf.c hex_utils.c numbers_utils.c pointer_utils.c strings_utils.c
+SRCS		=	ft_itoa.c ft_printf.c hex_utils.c \
+				numbers_utils.c pointer_utils.c strings_utils.c
 
 OBJS		=	$(SRCS:.c=.o)
 
@@ -37,6 +38,6 @@ clean:
 fclean:		clean
 			$(RM) $(NAME)
 
-re:		fclean all
+re:			fclean all
 
 .PHONY:		all clean fclean re
